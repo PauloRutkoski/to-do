@@ -1,0 +1,38 @@
+:root{
+    --color: #8844ee;
+}
+
+html,
+body,
+#root{
+    height: 100%;
+    
+}
+
+.logo {
+    object-fit: contain;
+    max-height: 150px;
+    width: 100%;
+}
+
+.column {
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px ;
+    max-width: 600px;
+    display: flex;
+}
+
+.container {
+    align-content: flex-start;
+    justify-content: center;
+    display: flex;
+}
+
+header {
+    height: 40px;
+    padding:20px 0 0 0 ;
+}
+

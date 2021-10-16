@@ -1,0 +1,30 @@
+.input {
+    padding: 5px 20px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    box-shadow: rgba(9, 9, 121, 0.2) 3px 3px 10px;
+    transition: .5s;
+    font-weight: bold;
+}
+
+.input:focus{
+    border: none;
+    outline-style: none;
+}
+
+.btn-confirm{
+    width: 50px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    box-shadow: rgba(9, 9, 121, 0.2) 3px 3px 10px;
+    background-color: var(--color);
+    color: #FFF;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-confirm:hover{
+    box-shadow: rgba(9, 9, 121, 0.4) 3px 3px 10px;   
+}

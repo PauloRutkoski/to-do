@@ -1,0 +1,88 @@
+
+.card {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    color: #575757;
+    border-top: 1px solid #f8f8f8;
+    transition: .4s;
+    justify-content: space-between;
+}
+
+.card:last-child {
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.card:hover{
+    background-color: #fafafa;
+}
+
+.check{
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.check:hover{
+    box-shadow:rgba(9, 9, 121, 0.3) 1px 1px 3px;
+}
+
+.done {
+    background-color: var(--color);
+    color: #fff;
+    font-size: 8px;
+}
+
+.not-done {
+    border: 1px solid var(--color);
+    color: var(--color);
+    box-sizing: border-box;
+}
+
+.dropdown-button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+}
+
+.dropdown-content{
+   position: absolute;
+   z-index: 1;
+   display: none;
+   background-color: #fff;
+   box-shadow:rgba(9, 9, 121, 0.3) 5px 5px 10px;
+   border-radius: 10px;
+   font-weight: 500;
+   padding: 8px 0;
+}
+
+.dropdown-content a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: .5s;
+ }
+
+ .dropdown-content a i{
+    font-size: 12px;
+    margin-right: 5px;
+ }
+
+ .dropdown-content a:hover{
+    background-color: #f2f2f2;
+ }
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
